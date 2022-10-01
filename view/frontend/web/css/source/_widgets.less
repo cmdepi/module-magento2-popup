@@ -1,0 +1,30 @@
+/**
+ *
+ * @description Widget styles
+ *
+ * @author Bina Commerce      <https://www.binacommerce.com>
+ * @author C. M. de Picciotto <cmdepicciotto@binacommerce.com>
+ *
+ */
+
+/**
+ *
+ * @note Common styles
+ *
+ */
+& when (@media-common = true) {
+    /**
+     *
+     * @note Popup
+     *
+     */
+    .popup {
+        /**
+         *
+         * @note Generalize pointer events behaviour
+         * @note Sometimes, the content shown in popup is larger than the browser window, so it is necessary to scroll down. This style enables the scroll behaviour in popup
+         *
+         */
+        pointer-events: auto;
+    }
+}
