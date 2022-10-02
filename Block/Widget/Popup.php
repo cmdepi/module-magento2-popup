@@ -19,7 +19,7 @@ class Popup extends Block implements BlockInterface
      * @var string
      *
      */
-    protected $_template = "Bina_Popup::widget/popup.phtml";
+    protected $_template = 'Bina_Popup::widget/popup.phtml';
 
     /**
      *
