@@ -55,6 +55,18 @@
             <!--
             /**
              *
+             * @note Popup title
+             *
+             */
+            -->
+            <parameter name="css_class" xsi:type="text" required="false" visible="true">
+                <label translate="true">CSS Class</label>
+                <description translate="true"><![CDATA[CSS class useful for styling the popup]]></description>
+            </parameter>
+
+            <!--
+            /**
+             *
              * @note Show popup on page initialization (if the popup is not shown on page initialization then it is shown on button click)
              *
              */

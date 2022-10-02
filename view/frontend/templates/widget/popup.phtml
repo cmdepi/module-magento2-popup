@@ -105,7 +105,7 @@ require(['jquery', 'Magento_Ui/js/modal/modal'], function($, modal) {
             type      : 'popup',
             responsive: true,
             title     : '<?= $block->getTitle() ?>',
-            modalClass: 'popup',
+            modalClass: 'popup <?= $block->getCssClass() ?>',
             buttons   : []
         };
 

@@ -75,6 +75,32 @@ class Popup extends Block implements BlockInterface
 
     /**
      *
+     * Get CSS class
+     *
+     * @return string
+     *
+     */
+    public function getCssClass()
+    {
+        return $this->getData('css_class');
+    }
+
+    /**
+     *
+     * Set CSS class
+     *
+     * @param string $cssClass
+     *
+     * @return $this
+     *
+     */
+    public function setCssClass($cssClass)
+    {
+        return $this->setData('css_class', $cssClass);
+    }
+
+    /**
+     *
      * Get show on init
      *
      * @return bool
