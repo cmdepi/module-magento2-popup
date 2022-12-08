@@ -3,6 +3,7 @@
 # About the project
 
 A [Magento 2](https://business.adobe.com/products/magento/magento-commerce.html) implementation for my [Bina Commerce](https://binacommerce.com/) brand.
+
 This little development allows you to add popups in your store pages using the [Magento widget](https://docs.magento.com/user-guide/v2.3/cms/widgets.html) user tool.
 
 ## Installation
