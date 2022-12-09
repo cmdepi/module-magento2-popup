@@ -8,7 +8,7 @@ This little development allows you to add popups in your store pages using the [
 
 ## Installation
 
-To proceed with the installation of your module, you need go to the [document root of your Magento installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/docroot.html) and run the following commands:
+To proceed with the installation of your module, you need to go to the [document root of your Magento installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/docroot.html) and run the following commands:
 
 ```
 composer require bina/module-popup
